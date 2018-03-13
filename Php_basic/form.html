@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+<form method = "post" action="/Tutor/tutor.php">
+
+  First name: <input type="text" name="FirstName" ><br>
+
+  Last name: <input type="text" name="LastName" ><br>
+
+  E-mail: <input type="email" name="useremail"><br>
+
+  location: <input type = "text" name = "country" id="country"><br>
+  <div id="countryList"></div>
+  <input type="submit" value="Submit">
+</form>
+</div>
+</body>
+<script>
+$(document).ready(function(){
+  $('#country').keyup(function(){
+    var query = $(this).val();
+    if(query!= '')
+    {
+      $.ajax({
+        url:"./search.php",
+        method:"POST",
+        data:{query:query},
+        success:function(data)
+        {
+          $('#countryList').fadeIn();
+          $('#countryList').html(data);
+        }
+      });
+    });
+  });
+    {
+  </script>
+</html>
