@@ -1,0 +1,5 @@
+database Name: tutor
+
+1.Create database as name as tutor
+
+2.import sql file 'tutor.sql'to database 
