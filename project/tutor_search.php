@@ -18,10 +18,10 @@ if(!isset($_SESSION))
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
      <style>
-     ul{
+    /* ul{
           background-color:#eee;
           cursor:pointer;
-     }
+     }*/
      li{
           padding:12px;
      }
@@ -35,7 +35,7 @@ if(!isset($_SESSION))
   margin: 4px 2px;
   opacity: 0.6;
   transition: 0.3s;
-}
+  }
      </style>
 </head>
 <body>

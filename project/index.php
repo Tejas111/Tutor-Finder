@@ -55,9 +55,7 @@ body {font-family: "Lato", sans-serif}
 <img class="mySlides" src="images/quotes_brad.jpg" width=100% height="550px" margin-top:"30px">
 <img class="mySlides" src="images/quotes_william.jpg" width=100% height="550px" margin-top:"30px">
 
-<button class="w3-button w3-display-left w3-jumbo" style="background-color: transparent;" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right w3-jumbo" style="background-color: transparent;" onclick="plusDivs(+1)">&#10095;</button>
- 
+
 <!-- division to add a background image -->
  <div class="container">
     <p class="topic col-md-offset-3 col-lg-offset-5"><b> CHOOSE A SUBJECT </b></p>
@@ -65,37 +63,37 @@ body {font-family: "Lato", sans-serif}
       
       <!-- <div class=" roow"> -->
         <div class="col col-sm-12 col-md-6 col-lg-4">
-          <p><b>  MATHS</b> </p>
+          <p><b> <a href="https://en.wikipedia.org/wiki/Portal:Mathematics"> MATHS</a></b> </p>
         </div>
         <div class=" col col-sm-12 col-md-6 col-lg-4">
-          <p> <b> PHYSICS </b></p>
+          <p> <b><a href="https://en.wikipedia.org/wiki/Physics"> PHYSICS</a> </b></p>
         </div>
         <div class="col col-sm-12 col-md-6 col-lg-4">
-          <p>  <b>CHEMISTRY</b> </p>
-        </div>
-      <!-- </div> -->
-
-      <!-- <div class=" roow"> -->
-        <div class="col col-sm-12 col-md-6 col-lg-4">
-          <p> <b> SOCIAL </b></p>
-        </div>
-        <div class="col col-sm-12 col-md-6 col-lg-4">
-          <p> <b> ELECTRONICS</b> </p>
-        </div>
-        <div class="col col-sm-12 col-md-6 col-lg-4">
-          <p><b>  COMPUTER</b> </p>
+          <p>  <b> <a href="https://en.wikipedia.org/wiki/Chemistry">CHEMISTRY</b></a> </p>
         </div>
       <!-- </div> -->
 
       <!-- <div class=" roow"> -->
         <div class="col col-sm-12 col-md-6 col-lg-4">
-          <p> <b> CIVIL</b></p>
+          <p> <b><a "https://en.wikipedia.org/wiki/Social"> SOCIAL</a> </b></p>
         </div>
         <div class="col col-sm-12 col-md-6 col-lg-4">
-          <p>  <b>MECHANICS </b></p>
+          <p> <b><a href="https://en.wikipedia.org/wiki/Electronics"> ELECTRONICS</a></b> </p>
         </div>
         <div class="col col-sm-12 col-md-6 col-lg-4">
-          <p><b>  METALLURGY</b> </p>
+          <p><b><a href="https://en.wikipedia.org/wiki/Computer">  COMPUTER</a></b> </p>
+        </div>
+      <!-- </div> -->
+
+      <!-- <div class=" roow"> -->
+        <div class="col col-sm-12 col-md-6 col-lg-4">
+          <p> <b> <a href="https://en.wikipedia.org/wiki/Civil">CIVIL</a></b></p>
+        </div>
+        <div class="col col-sm-12 col-md-6 col-lg-4">
+          <p><b> <a href="https://en.wikipedia.org/wiki/Mechanics">MECHANICS</a> </b></p>
+        </div>
+        <div class="col col-sm-12 col-md-6 col-lg-4">
+          <p><b> <a href="https://en.wikipedia.org/wiki/Metallurgy"> METALLURGY </a></b> </p>
         </div>
       <!-- </div> -->
     </div>

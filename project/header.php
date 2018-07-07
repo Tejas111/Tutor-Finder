@@ -62,9 +62,9 @@ float:left;
                 
               <li><a href="">FAQ</a>
           <ul> 
-            <li><a href="">Teacher FAQ</a></li>
-            <li><a href="">Student FAQ</a></li>  
-            <li><a href="">Parent FAQ</a></li>
+            <li><a href="faq.php">Teacher FAQ</a></li>
+            <li><a href="faq_stud.php">Student FAQ</a></li>  
+            
           
           </ul>
                

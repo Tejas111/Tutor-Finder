@@ -27,16 +27,21 @@ $result=mysqli_query($conn,$query1);
   $sql2="INSERT INTO ajax (address) VALUES ('$address')  ";
   mysqli_query($conn,$sql2);
 }
+$hash = password_hash($password,PASSWORD_DEFAULT);
 $sql = "INSERT INTO tutor (name,number,password,email,teaching,address,subject)
 
-VALUES ('$name','$number','$password','$email','$teaching','$address','$subject')";
+VALUES ('$name','$number','$hash','$email','$teaching','$address','$subject')";
 $query1="INSERT INTO user (email,password,usertype)
-VALUES ('$email','$password','$user_type')";
+VALUES ('$email','$hash','$user_type')";
 $query2="INSERT INTO add_tutor (name,email,number,teaching,address,subject)
 
 VALUES ('$name','$email','$number','$teaching','$address','$subject')";
 
 if ($conn->query($sql) === TRUE && $conn->query($query1)&&$conn->query($query2)) {
+    $to = '$email';
+    $subject = 'Welcome to Tutor Finder';
+    $body = 'Your login Credentials are username='+$name;
+    $http_response_header
 
     echo "Tutor Added successfully";
 

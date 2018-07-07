@@ -25,7 +25,9 @@ session_start();
  
      }
      }
-     echo $id;
+     
+
+     
 if(($number!=null) && ($teaching!=null) && ($address!=null)&&($subject!=null)) { 
 $sql2= "UPDATE tutor SET number='$number' ,  teaching='$teaching' , address='$address' , subject = '$subject' WHERE id='$id' ";
 if ($conn->query($sql2) === TRUE && $conn->query($sql)) {

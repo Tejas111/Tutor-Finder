@@ -111,7 +111,7 @@ echo "fff";}
 			<input type="text "class="form-control" id="addr" name="addr" placeholder="Address" required="required"/>
 
 		</div>
-            <div class="text-center"><button type="submit" name="submit" id="submit"class="btn btn-primary btn-lg" >Add Tutor</button></div>
+            <div class="text-center"><button type="submit" name="submit" id="submit"class="btn btn-primary btn-lg" >Update Tutor</button></div>
           
 		  <div class="row"><div class=""  id="result"></div></div>
 		  </div>

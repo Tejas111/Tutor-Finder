@@ -30,7 +30,7 @@ if(!isset($_SESSION))
             
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="password" id="" placeholder="Your Password" required="required"  />
+              <input type="password" class="form-control" name="password" id="" placeholder="Your Password" required="required"  />
             
             </div>
             
@@ -42,6 +42,13 @@ if(!isset($_SESSION))
     </div>
     <!--/.container-->
   </section>
+  <?php
+    if(isset($_SESSION["error"])){
+      echo  "<span style='color:red;'>".$_SESSION["error"]."</span>";
+      session_destroy();
+    }
+      
+   ?>
   <!--/#contact-page-->
 
 <?php include("footer.php"); ?>
